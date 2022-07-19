@@ -29,6 +29,7 @@ nav ul li {
   list-style: none;
   margin-right: 18px;
   font-size: 25px;
+  font-style: italic;
   cursor: pointer;
   transition: 0.4s ease-in-out;
 }
@@ -99,7 +100,7 @@ nav ul li:hover {
 }
 
 .card_section {
-  margin-top: 50px;
+  margin-top: 70px;
   display: flex;
   justify-content: space-between;
 }
@@ -205,7 +206,7 @@ nav ul li:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .footer_title {
