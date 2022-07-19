@@ -9,6 +9,7 @@ body {
 header {
   max-width: 1300px;
   margin: 0 auto;
+  padding-inline: 20px;
 }
 
 main {
@@ -52,7 +53,7 @@ nav ul li:hover {
 
 .banner_blog {
   background-color: black;
-  height: 650px;
+  min-height: 650px;
   border-radius: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -416,6 +417,10 @@ hr {
   color: #fff;
 }
 
+/*
+***** Media Queries ******
+*/
+
 @media screen and (max-width: 688px) {
   nav {
     display: none;
@@ -426,10 +431,25 @@ hr {
     cursor: pointer;
   }
   .banner_blog {
-    flex-direction: column-reverse;
-    background-color: #fff;
+    flex-direction: column;
+    /* background-color: #fff; */
   }
   .banner_image img {
     width: 100%;
+  }
+
+  .banner_title {
+    font-size: 25px;
+  }
+  .banner_description {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .side_box {
+    flex-direction: row;
+  }
+  .player_card_blog {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
