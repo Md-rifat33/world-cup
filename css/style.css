@@ -169,7 +169,7 @@ nav ul li:hover {
 }
 
 .card {
-  border: 1px solid grey;
+  border: 1px solid lightgray;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 20px;
@@ -198,6 +198,175 @@ nav ul li:hover {
   margin-right: 200px;
 }
 
+/*
+Match details
+*/
+
+.match_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.match_details {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.match_date {
+  text-align: center;
+}
+
+.team {
+  margin-top: 20px;
+}
+
+.team_images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.between {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/**********
+       Form Section 
+********/
+
+.ticket_form {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.form_title {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.input_field {
+  margin-top: 20px;
+  background-color: black;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.name_label {
+  font-size: 25px;
+  color: white;
+}
+
+.name_input {
+  width: 200px;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.last_name_input {
+  margin-left: 20px;
+}
+
+.email_label {
+  font-size: 25px;
+  color: white;
+}
+
+.email_input {
+  width: 200px;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.phone_label {
+  font-size: 25px;
+  color: white;
+}
+
+.phone_input {
+  width: 200px;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.quantity_label {
+  font-size: 25px;
+  color: white;
+}
+
+.quantity_input {
+  width: 200px;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.term_label {
+  font-size: 25px;
+  color: white;
+}
+.terms_blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.term_checkbox {
+  margin-left: 10px;
+}
+
+.terms_details {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #fff;
+  font-style: italic;
+}
+
+.purchase_btn {
+  margin-top: 20px;
+  width: 250px;
+  height: 60px;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.575);
+  border-radius: 35px;
+  color: #fff;
+  font-size: 22px;
+  font-style: italic;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+}
+
+.purchase_btn:hover {
+  width: 280px;
+}
+/******
+///// Footer Section //////
+*/
 .footer {
   max-width: none;
   width: 100%;
