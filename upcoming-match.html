@@ -14,14 +14,31 @@
   <body>
     <!-- start:header -->
     <header>
-      <!-- start:banner -->
+      <!-- ************ Navigation Section start *********-->
+      <section class="navigation_container">
+        <div class="navigation_image">
+          <img src="./images/logo.png" alt="" />
+        </div>
+        <div>
+          <nav>
+            <ul class="list_items">
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+              <li>More</li>
+            </ul>
+          </nav>
+          <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </section>
+      <!--************* navigation section end  ************-->
+
+      <!-- ******** Banner section start *********-->
       <section class="banner_blog">
         <div class="banner_details">
-          <h1 class="banner_title">
-            The Greatest <br />
-            show on the <br />
-            earth
-          </h1>
+          <h1 class="banner_title">The Greatest show on the earth</h1>
           <p class="banner_description">
             World Cup, formally FIFA World Cup, in football (soccer),
             quadrennial tournament that determines the sport's world champion.
@@ -36,24 +53,21 @@
           <img src="./images/Banner Image.png" alt="" />
         </div>
       </section>
-      <!-- end:banner -->
+      <!-- ******** Banner section end ***********-->
     </header>
     <!-- end:header -->
     <!-- start:main -->
     <main>
       <section class="card_section">
         <div class="side_box">
-          <article>
-            <a href="#" target="_blank" class="upcoming_match_button"
-              >Upcoming Match</a
-            >
-          </article>
-          <article>
-            <button class="all_group_btn">All Group</button>
-          </article>
-          <article>
-            <button class="blog_button">Blog</button>
-          </article>
+          <a
+            href="upcoming-match.html"
+            target="_blank"
+            class="upcoming_match_button"
+            >Upcoming Match</a
+          >
+          <button class="all_group_btn">All Group</button>
+          <button class="blog_button">Blog</button>
         </div>
         <div class="match_card">
           <article class="match_details">
@@ -146,6 +160,7 @@
             <h1></h1>
           </article>
         </div>
+        <button class="view_button">View All</button>
       </section>
 
       <!-- start:form -->
@@ -211,11 +226,11 @@
     <!-- end:main -->
     <!-- start:Footer -->
     <footer class="footer">
-      <article class="footer_heading">
+      <div class="footer_heading">
         <h1 class="footer_title">Goal</h1>
         <hr />
-      </article>
-      <article>
+      </div>
+      <div>
         <ul class="footer_list_items">
           <li>Contact Us</li>
           <li>Terms of Service</li>
@@ -224,9 +239,8 @@
           <li>Goal App</li>
           <li>Goal Live</li>
         </ul>
-      </article>
-      <!-- Social Icon  -->
-      <article class="social_icon">
+      </div>
+      <div class="social_icon">
         <a
           href="https://www.facebook.com/ariyanchowdury.rifat.9/"
           target="_blank"
@@ -240,10 +254,10 @@
         <a href="https://twitter.com/" target="_blank"
           ><i class="fa-brands fa-twitter"></i
         ></a>
-        <a href="https://www.youtube.com/"
+        <a href="https://www.youtube.com/" target="_blank"
           ><i class="fa-brands fa-youtube"></i
         ></a>
-      </article>
+      </div>
     </footer>
     <!-- end:Footer -->
     <!-- Font Awesome Link -->

@@ -343,7 +343,7 @@ Match details
   margin-top: 40px;
   background-color: black;
   border-radius: 10px;
-  min-height: 450px;
+  min-height: 515px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -602,6 +602,11 @@ hr {
   .blog_button {
     margin-top: 0;
   }
+
+  .match_card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .footer {
     margin-top: 70px;
     padding-top: 70px;
@@ -727,7 +732,7 @@ hr {
   */
 
   .view_button {
-    display: block;
+    display: none;
   }
 
   .banner_button {
@@ -753,5 +758,36 @@ hr {
 
   .navigation_image img {
     max-width: 180px;
+  }
+
+  .input_field {
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .name_label,
+  .email_label,
+  .phone_label,
+  .term_label,
+  .quantity_label {
+    font-size: 15px;
+  }
+
+  .name_input,
+  .email_input,
+  .phone_input,
+  .quantity_input {
+    width: 50%;
+  }
+
+  .term_checkbox {
+    font-size: 18px;
+  }
+  .terms_details {
+    font-size: 13px;
+  }
+
+  .purchase_btn {
+    width: 80%;
   }
 }
