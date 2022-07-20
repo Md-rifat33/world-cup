@@ -417,6 +417,24 @@ hr {
   color: #fff;
 }
 
+.social_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.social_icon a {
+  font-size: 33px;
+  margin-right: 70px;
+  transition: 0.4s ease-in-out;
+}
+
+.social_icon a:hover {
+  color: #fff;
+}
+
 /*
 ***** Media Queries ******
 */
