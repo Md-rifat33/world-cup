@@ -27,6 +27,7 @@ main {
 .navigation_image img {
   width: 250px;
   height: 100%;
+  cursor: pointer;
 }
 
 .list_items {
